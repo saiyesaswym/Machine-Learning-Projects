@@ -1,0 +1,14 @@
+This database contains pitching, hitting, and fielding statistics for
+Major League Baseball from 1871 through 2016.  It includes data from
+the two current leagues (American and National), the four other "major" 
+leagues (American Association, Union Association, Players League, and
+Federal League), and the National Association of 1871-1875.
+
+Two tables from database are used in this project:
+Teams.csv
+TeamsFranchises.csv
+
+These tables are read into Jupyter from the sqlite3 database file which can be found here: 
+https://github.com/jknecht/baseball-archive-sqlite
+
+ 
