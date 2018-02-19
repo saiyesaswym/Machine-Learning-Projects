@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>Data Analysis </title>
+ 
+</head>
+ 
+<body>
+
+    <div class="container2">
+      <h1>CHECK THE SENTIMENT!</h1>
+      <h3> Enter Text and Click the "check button:"</h3>
+      <form action="showsentiment" method = "POST">
+        <textarea rows="5" cols="20" name="sentence" placeholder="Enter Text" value="{{ entered2 }}"></textarea>
+
+        <input  type="submit" value="CHECK"></button>
+      </form>
+     <div>
+      <p>Text: {{ entered2 }}</p>
+   <h1>{{ value2 }}</h1>
+</body>
+ 
+</html>
