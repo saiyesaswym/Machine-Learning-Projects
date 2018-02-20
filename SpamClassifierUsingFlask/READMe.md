@@ -12,5 +12,14 @@ Web Application: http://saiyesaswy.pythonanywhere.com/
 
 Here are some of the most informative features derived from the model:
 
-Most Informative Features
+![alt text](https://raw.githubusercontent.com/ssv1993/Python-Projects/SpamClassifierUsingFlask/InformativeFeatures.png)
 
+Emails or Texts which are personalized are classified as HAM:
+
+![alt text](https://raw.githubusercontent.com/ssv1993/Python-Projects/SpamClassifierUsingFlask/Ham.png)
+
+Generic or Mass texts are classified as SPAM:
+
+![alt text](https://raw.githubusercontent.com/ssv1993/Python-Projects/SpamClassifierUsingFlask/Spam.png)
+
+Python-Projects/SpamClassifierUsingFlask/Spam.png
