@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SPAM Detector</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="/static/main.css" >
+    </head>
+    <body >
+        <div class="container">
+            <div class="form-container">
+                <h1>
+                    SPAM/HAM classifier
+                </h1>
+                <form action="showclass" method = "POST" id="reused_form" >
+                    <label for="message">Enter Text:</label>
+                    <textarea id="message" name="number1" rows="10" maxlength="6000" required></textarea>
+                    <button class="button-primary" type="submit" >CHECK</button>
+                </form>
+                <div>
+                    <p>Text: {{ entered }}</p>
+                    <div id="review"><h1>{{ value }}</h1></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
