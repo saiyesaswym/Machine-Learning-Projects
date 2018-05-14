@@ -1,6 +1,0 @@
-Time series forecasting is basically the machine learning modeling for Time Series data (years, days, hours…etc.)for predicting future values using Time Series modeling .
-
-Air passengers dataset from Kaggle is used for the time series forecasting:
-
-https://www.kaggle.com/rakannimer/air-passengers
-
